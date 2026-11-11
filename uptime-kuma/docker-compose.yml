@@ -6,9 +6,7 @@ services:
     volumes:
       - uptime-kuma-data:/app/data
     ports:
-      - "53:53/tcp"
-      - "53:53/udp"
-      - "80:80/tcp"
+      - "3001:3001"
     restart: unless-stopped
 
 volumes:
