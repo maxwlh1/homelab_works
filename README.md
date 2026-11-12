@@ -9,13 +9,13 @@ This is a small homelab I'm running on my Raspberry Pi 4B. Services are ran on D
 * **Zero-Trust Networking:** Tailscale (for remote access)
 
 ## Observability
-| **Homarr** | Unified landing page and GitOps service dashboard | `3002` | Active |
-| **Pi-hole** | Network-wide DNS sinkhole and ad-blocker | `53`, `80` | Active |
-| **Uptime Kuma** | Uptime monitoring for internal services and network latency | `3001` | Active |
-| **Prometheus** | Time-series database for hardware and container metrics | `9090` | Active |
-| **Grafana** | Visual observability interface for system telemetry | `3000` | Active |
+| **Homarr** | Unified landing page and GitOps service dashboard | `3002` | Active | \\
+| **Pi-hole** | Network-wide DNS sinkhole and ad-blocker | `53`, `80` | Active | \\
+| **Uptime Kuma** | Uptime monitoring for internal services and network latency | `3001` | Active | \\
+| **Prometheus** | Time-series database for hardware and container metrics | `9090` | Active | \\
+| **Grafana** | Visual observability interface for system telemetry | `3000` | Active | \\
 | **Node Exporter** | Background agent scraping Raspberry Pi hardware metrics | `9100` | Active |
-
+ \\
 ## Security
 The homelab employs several strict security layers:
 
